@@ -34,8 +34,9 @@ public class Main {
             return true;
         } else if (!isSummer && temp >= 25 && temp <= 35) {
             return true;
+        }else {
+            return false;
         }
-        return false;
     }
 
     public static double area(double width, double height) {
